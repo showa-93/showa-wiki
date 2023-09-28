@@ -1,0 +1,34 @@
+baseURL: "/"
+languageCode: "ja"
+defaultContentLanguage: ja
+title: "showa Wiki"
+theme: docsy
+enableGitInfo: true
+navbar_logo: false
+
+menu:
+  main:
+    - name: Documentation
+      weight: 40
+      url: ./docs
+
+params:
+  ui:
+    sidebar_menu_compact: true
+    sidebar_menu_foldable: true
+    sidebar_cache_limit: 1000
+    breadcrumb_disable: false
+    taxonomy_breadcrumb_disable: false
+
+languages:
+  ja:
+    languageName: "日本語"
+    languageCode: "ja"
+    contentDir: "content"
+
+frontmatter:
+  lastmod:
+    - "date"
+    - ":git"
+    - "lastmod"
+    - "publishDate"
