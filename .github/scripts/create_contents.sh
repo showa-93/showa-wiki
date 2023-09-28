@@ -15,13 +15,13 @@ cleanup() {
 }
 trap cleanup EXIT
 
-# ファイルの更新日時をGitの更新日時に変更する
+# ファイル内の日時をGitの更新日時に変更する
 (
   cd docs
   for file in $(git ls-files); do
     time=$(git log --pretty=format:%ci -n1 ${file})
-    stamp=$(date -d "${time}" +"%y%m%d%H%M.%S")
-    touch -t $stamp ${file}
+    stamp=$(date -d "${time}" +"%Y-%m-%dT%H:%M:%S+09:00")
+    sed -i -e "s/{{lastmod}}/${stamp}/" ${file}
   done
 )
 

@@ -11,6 +11,9 @@ menu:
     - name: Documentation
       weight: 40
       url: ./docs
+    - name: Blog
+      weight: 50
+      url: ./blog
 
 params:
   ui:
@@ -27,8 +30,9 @@ languages:
     contentDir: "content"
 
 frontmatter:
-  lastmod:
+  date:
     - "date"
     - ":git"
+  lastmod:
     - "lastmod"
-    - "publishDate"
+    - ":git"

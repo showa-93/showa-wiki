@@ -44,6 +44,7 @@ jobs:
         run: |
           ./.github/scripts/create_contents.sh ec10db8e4fdd60148e6acd61641b9192 docs/Develop
           ./.github/scripts/create_contents.sh 1ff2c1488c358bb2b924720696116dc2 docs/Algorithm
+          ./.github/scripts/create_contents.sh 43a7694f54a71d1a16356b58a63ea8db blog
       - name: Commit and push
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
