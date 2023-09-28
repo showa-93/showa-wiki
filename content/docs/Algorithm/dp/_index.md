@@ -1,0 +1,4 @@
+---
+title: 動的計画法
+type: docs
+---
