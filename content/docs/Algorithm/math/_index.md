@@ -1,6 +1,7 @@
 ---
 title: Math
 type: docs
+weight: 1
 ---
 
 ## ユークリッドの互除法
