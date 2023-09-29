@@ -54,6 +54,7 @@ jobs:
           git add .
           git commit -m "Synchronized gists"
           git push
+        continue-on-error: true
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
