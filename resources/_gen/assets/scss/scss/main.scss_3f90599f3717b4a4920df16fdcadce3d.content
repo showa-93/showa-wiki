@@ -18669,12 +18669,7 @@ div.drawioframe {
     height: 5rem;
     visibility: hidden; } }
 
-/*
-
-Nothing defined here. The Hugo project that uses this theme can override Bootstrap by adding a file to:
-
-assets/scss/_styles_project.scss
-
-*/
+.td-navbar {
+  padding: 0 2rem; }
 
 /*# sourceMappingURL=main.css.map */
