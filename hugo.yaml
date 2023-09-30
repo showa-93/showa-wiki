@@ -60,7 +60,7 @@ params:
 
 services:
   googleAnalytics:
-    id: ""
+    id: "G-KWS493Q7JT"
 
 languages:
   ja:
