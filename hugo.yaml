@@ -32,9 +32,6 @@ menu:
       pre: <i class='fab fa-github'></i>
 
 params:
-  github_repo: https://github.com/showa-93/showa-wiki
-  github_branch: "main"
-
   author: showa
   github: showa-93
   twitter: showa_93
