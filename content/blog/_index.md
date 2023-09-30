@@ -1,5 +1,5 @@
 ---
-title: "New Releases"
-linkTitle: "Releases"
+title: "New Posts"
+linkTitle: "Posts"
 weight: 1
 ---

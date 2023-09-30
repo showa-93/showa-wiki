@@ -1,33 +1,81 @@
 baseURL: "https://wiki.showa.dev"
+title: "showa Wiki"
+
+contentDir: "content"
 languageCode: "ja"
 defaultContentLanguage: ja
-title: "showa Wiki"
-theme: docsy
+
+enableRobotsTXT: true
 enableGitInfo: true
-navbar_logo: false
+
+theme: docsy
+
+# pygments
+pygmentsCodeFences: true
+pygmentsUseClasses: false
+pygmentsUseClassic: false
+pygmentsStyle: "nord"
 
 menu:
   main:
-    - name: Documentation
+    - name: Wiki
       weight: 40
       url: /docs
+      pre: <i class="fa-solid fa-book"></i>
     - name: Blog
       weight: 50
       url: /blog
+      pre: <i class='fa-solid fa-rss'></i>
+    - name: GitHub
+      weight: 60
+      url: https://github.com/showa-93
+      pre: <i class='fab fa-github'></i>
 
 params:
+  github_repo: https://github.com/showa-93/showa-wiki
+  github_branch: "main"
+
+  author: showa
+  github: showa-93
+  twitter: showa_93
+
+  copyright: showa
+  privacy_policy: https://creativecommons.org/licenses/by-nc-sa/2.1/jp/
+
+  gcs_engine_id: "279facfb3dcb341c6"
+
+  prism_syntax_highlighting: true
+
   ui:
+    navbar_logo: false
+    footer_about_disable: true
     sidebar_menu_compact: true
     sidebar_menu_foldable: true
     sidebar_cache_limit: 1000
+    sidebar_search_disable: false
     breadcrumb_disable: false
     taxonomy_breadcrumb_disable: false
+  links:
+    user:
+      - name: Twitter
+        url: "https://twitter.com/showa_93"
+        icon: fab fa-twitter
+
+services:
+  googleAnalytics:
+    id: ""
 
 languages:
   ja:
-    languageName: "日本語"
-    languageCode: "ja"
+    languageName: 日本語
+    languageCode: ja
     contentDir: "content"
+    time_format_default: "2006-01-02T15:04:05Z07:00"
+    time_format_blog: "2006/01/02 15:04"
+
+markup:
+  highlight:
+    style: nord
 
 frontmatter:
   date:
