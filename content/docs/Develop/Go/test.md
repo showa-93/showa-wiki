@@ -2,6 +2,7 @@
 title: Test
 type: docs
 weight: 1
+lastmod: 2023-10-02T16:16:47+09:00
 ---
 
 ## Benchmark

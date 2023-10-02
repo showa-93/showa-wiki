@@ -2,6 +2,7 @@
 title: logging
 type: docs
 weight: 1
+lastmod: 2023-10-02T16:16:26+09:00
 ---
 
 - [Logging HOWTO - Python 3.11.4ドキュメント](https://docs.python.org/ja/3/howto/logging.html)

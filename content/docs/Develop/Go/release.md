@@ -2,6 +2,7 @@
 title: Release
 type: docs
 weight: 1
+lastmod: 2023-10-02T16:16:43+09:00
 ---
 
 ## [1.21.0](https://tip.golang.org/doc/go1.21)
