@@ -22,6 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
+      TZ: "Asia/Tokyo"
       HUGO_VERSION: 0.119.0
     steps:
       - name: Install Hugo CLI
