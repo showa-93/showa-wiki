@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+{{ with .Content }}
+{{ . }}
+{{ end }}
+
+{{ partial "top-blog-list.html" . }}
+<hr class="panel-line">
+{{ partial "top-docs-list.html" . }}
+
+{{ end }}

@@ -77,6 +77,7 @@ markup:
 frontmatter:
   date:
     - "date"
+    - "lastmod"
     - ":git"
   lastmod:
     - "lastmod"
