@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 日本語のエンコード対策
+git config --global core.quotepath false
+
 # gistのIDとディレクトリを受け取る
 # $1 = ec10db8e4fdd60148e6acd61641b9192
 # $2 = docs/Develop
