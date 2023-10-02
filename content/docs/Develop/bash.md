@@ -2,7 +2,7 @@
 title: bash
 type: docs
 weight: 1
-lastmod: 2023-10-02T16:16:23+09:00
+lastmod: 2023-10-03T01:16:23+09:00
 ---
 
 ## 構文
