@@ -3,7 +3,7 @@
 {{ $pages := (where .Site.RegularPages "Section" "==" "docs") }}
 {{ $pages = sort $pages "Lastmod" "desc" }}
 
-<h2>Docs Update History</h1>
+<h2>Docs Update History</h2>
 <ul class="td-blog-posts-list">
 {{ range $pages }}
   {{ if eq $count 10 }}
