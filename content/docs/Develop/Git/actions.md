@@ -1,7 +1,7 @@
 ---
 title: GitHub Actions
 type: docs
-lastmod: 2023-09-29T15:15:10+09:00
+lastmod: 2023-10-08T14:56:50+09:00
 waight: 1
 ---
 

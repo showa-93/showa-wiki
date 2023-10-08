@@ -2,7 +2,7 @@
 title: Links
 type: docs
 weight: 100
-lastmod: 2023-10-03T01:17:20+09:00
+lastmod: 2023-10-08T14:36:53+09:00
 ---
 
 - [Introduction - AWS Lambda](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html) - 2023/05/11
@@ -16,3 +16,5 @@ lastmod: 2023-10-03T01:17:20+09:00
 - [AWS Sketch](https://awssketch.com/) - 2023/07/21
   - 各サービスについてのスケッチ
 - [【15分で確認】AWSでクラウド構築する時に覚えておきたい設計原則・アーキテクチャ３選 - Qiita](https://qiita.com/WebEngrChild/items/65aa6e7ea16ea80ebd52) - 2023/09/17
+- [AWSのネットワーク設計入門](https://www.google.com/search?q=i7+8550u&sourceid=chrome&ie=UTF-Reipo128)
+- [個人的AWS ログ管理のベースライン - mazyu36の日記](https://mazyu36.hatenablog.com/entry/2023/03/17/184805)
