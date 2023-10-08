@@ -2,7 +2,7 @@
 title: DNS
 type: docs
 author: showa
-lastmod: 2023-10-08T16:07:17+09:00
+lastmod: 2023-10-08T16:27:38+09:00
 waight: 1
 ---
 
@@ -84,8 +84,8 @@ TLDによってレジストラの役割も異なるが、おおよそ下記。
 - DNS NOTIFY：プライマリサーバーでゾーンデータが更新された場合、セカンダリサーバーに通知する。
 - ゾーン転送方法
   - AXFR（Authoritative Transfer）：ゾーンのすべての情報を送る
-  - IXFR（Incremental Transfer）：特定のバージョンからの差分のみを送る
-[https://scrapbox.io/files/60ba2937300a82002398af20.png]
+  - IXFR（Incremental Transfer）：特定のバージョンからの差分のみを送る  
+  ![x](https://scrapbox.io/files/60ba2937300a82002398af20.png)
 
 #### リソースレコード
 
@@ -146,7 +146,7 @@ DNSメッセージは、DNSの問い合わせと応答に同じ構造が使わ�
 
 フォーマット
 
-```
+```txt
  Headerセクション
   各種制御情報を含むヘッダ部
   規定されたビット長で順番に並ぶ
@@ -173,18 +173,16 @@ DNSメッセージは、DNSの問い合わせと応答に同じ構造が使わ�
   - タイプを指定して問い合わせる
     - `dig domain名 -t AAAA`
 
-- [IP Anycast - cloudflare https://www.cloudflare.com/ja-jp/learning/dns/what-is-anycast-dns/]
+- [IP Anycast - cloudflare](https://www.cloudflare.com/ja-jp/learning/dns/what-is-anycast-dns/)
   - 共通のサービスIPアドレスを複数のホストで共有する仕組み
   - RFC1546
-  - [BGP - JPNIC https://www.nic.ad.jp/ja/newsletter/No35/0800.html]
+  - [BGP - JPNIC](https://www.nic.ad.jp/ja/newsletter/No35/0800.html)
 
 ### セキュリティ
 
 - DNS水責め攻撃
-  - [権威DNSサービスへのDDoSとハイパフォーマンスなベンチマーカ / DNS Pseudo random subdomain attack and High performance Benchmarker - Speaker Deck https://speakerdeck.com/kazeburo/dns-pseudo-random-subdomain-attack-and-high-performance-benchmarker]
+  - [権威DNSサービスへのDDoSとハイパフォーマンスなベンチマーカ / DNS Pseudo random subdomain attack and High performance Benchmarker - Speaker Deck](https://speakerdeck.com/kazeburo/dns-pseudo-random-subdomain-attack-and-high-performance-benchmarker)
 
 ## 参考
 
-- [DNSがよく分かる教科書 https://www.amazon.co.jp/dp/B07KQSRZ1S/]
-
-# network #UDP
+- [DNSがよく分かる教科書](https://www.amazon.co.jp/dp/B07KQSRZ1S/)
