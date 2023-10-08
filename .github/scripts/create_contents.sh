@@ -34,7 +34,8 @@ rm -rf ${base_path}*
 for file in $(find ./docs -name '*.md'); do
   # ファイル名からディレクトリ名とファイル名の配列をつくる
   file_name=$(basename $file)
-  dirs=(${file_name//---/ })
+  tmp_file_name=${file_name//#/---}
+  dirs=(${tmp_file_name//---/ })
   # 配列からパスを再構成する
   path="$(
     IFS=/
