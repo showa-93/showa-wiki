@@ -2,8 +2,8 @@
 title: ChatGPT
 type: docs
 author: showa
-lastmod: 2023-10-08T14:47:39+09:00
-waight: 1
+lastmod: 2023-10-09T17:26:50+09:00
+waight: 100200
 ---
 
 ## プロンプト

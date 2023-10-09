@@ -2,7 +2,7 @@
 title: DNS
 type: docs
 author: showa
-lastmod: 2023-10-08T16:27:38+09:00
+lastmod: 2023-10-09T17:25:21+09:00
 waight: 1
 ---
 

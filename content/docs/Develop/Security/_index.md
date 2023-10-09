@@ -1,8 +1,8 @@
 ---
 title: Security
 type: docs
-weight: 1
-lastmod: 2023-10-09T04:25:14+09:00
+weight: 10000
+lastmod: 2023-10-09T17:25:52+09:00
 ---
 
 - [JWTセキュリティ入門 - Speaker Deck](https://speakerdeck.com/melonattacker/jwtsekiyuriteiru-men?slide=28)

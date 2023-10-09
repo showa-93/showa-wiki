@@ -1,8 +1,8 @@
 ---
 title: Links
 type: docs
-weight: 100
-lastmod: 2023-10-03T01:17:10+09:00
+weight: 100000
+lastmod: 2023-10-09T17:24:02+09:00
 ---
 
 ## ソフトウェアアーキテクチャ

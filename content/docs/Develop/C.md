@@ -2,8 +2,8 @@
 title: C
 type: docs
 author: showa
-lastmod: 2023-10-08T16:41:41+09:00
-waight: 1
+lastmod: 2023-10-09T17:26:46+09:00
+waight: 100100
 ---
 
 [苦しんで覚えるC言語](https://9cguide.appspot.com/index.html)

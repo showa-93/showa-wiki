@@ -1,8 +1,8 @@
 ---
 title: Go
 type: docs
-weight: 1
-lastmod: 2023-10-09T03:45:24+09:00
+weight: 6000
+lastmod: 2023-10-09T17:24:41+09:00
 ---
 
 ## Goのバージョンアップ

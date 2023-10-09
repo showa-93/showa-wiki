@@ -2,8 +2,8 @@
 title: Kubernates
 type: docs
 author: showa
-lastmod: 2023-10-09T04:07:32+09:00
-waight: 1
+lastmod: 2023-10-09T17:27:28+09:00
+waight: 100800
 ---
 
 ## ローカルで動かすk8s

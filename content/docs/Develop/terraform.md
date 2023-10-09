@@ -1,8 +1,8 @@
 ---
 title: Terraform
 type: docs
-weight: 1
-lastmod: 2023-10-03T01:16:31+09:00
+weight: 101000
+lastmod: 2023-10-09T17:27:39+09:00
 ---
 
 ## link

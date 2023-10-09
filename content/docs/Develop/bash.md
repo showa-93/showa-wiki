@@ -1,8 +1,8 @@
 ---
 title: Bash
 type: docs
-weight: 1
-lastmod: 2023-10-08T14:59:18+09:00
+weight: 100600
+lastmod: 2023-10-09T17:27:15+09:00
 ---
 
 ## コーディング規約

@@ -1,8 +1,8 @@
 ---
 title: Links
 type: docs
-weight: 100
-lastmod: 2023-10-03T02:13:37+09:00
+weight: 100000
+lastmod: 2023-10-09T17:24:45+09:00
 ---
 
 ## spec

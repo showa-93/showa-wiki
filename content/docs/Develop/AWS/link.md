@@ -1,8 +1,8 @@
 ---
 title: Links
 type: docs
-weight: 100
-lastmod: 2023-10-08T14:36:53+09:00
+weight: 100000
+lastmod: 2023-10-09T17:23:36+09:00
 ---
 
 - [Introduction - AWS Lambda](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html) - 2023/05/11

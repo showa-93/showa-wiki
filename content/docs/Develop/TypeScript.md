@@ -2,8 +2,8 @@
 title: TypeScript
 type: docs
 author: showa
-lastmod: 2023-10-09T04:44:26+09:00
-waight: 1
+lastmod: 2023-10-09T17:27:02+09:00
+waight: 100400
 ---
 
 ## Enum

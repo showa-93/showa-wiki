@@ -2,8 +2,8 @@
 title: PHP
 type: docs
 author: showa
-lastmod: 2023-10-09T04:30:35+09:00
-waight: 1
+lastmod: 2023-10-09T17:25:45+09:00
+waight: 9000
 ---
 
 >PHP は、ほとんど全てが式であるという意味で、式指向の言語です。

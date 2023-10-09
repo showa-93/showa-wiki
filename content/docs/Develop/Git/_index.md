@@ -1,7 +1,7 @@
 ---
 title: Git
 type: docs
-weight: 1
+weight: 5000
 ---
 
 - [Writing good commit messages · erlang/otp Wiki](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)

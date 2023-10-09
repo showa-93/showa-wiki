@@ -2,8 +2,8 @@
 title: Java
 type: docs
 author: showa
-lastmod: 2023-10-09T04:02:02+09:00
-waight: 1
+lastmod: 2023-10-09T17:26:56+09:00
+waight: 100300
 ---
 
 - [Java7からJava16までの変遷。 - Qiita](https://qiita.com/sivertigo/items/8f61f02f7c84b786697a)

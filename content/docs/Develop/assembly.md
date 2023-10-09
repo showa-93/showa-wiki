@@ -2,8 +2,8 @@
 title: 低レイヤのお勉強
 type: docs
 author: showa
-lastmod: 2023-10-09T15:12:22+09:00
-waight: 1
+lastmod: 2023-10-09T17:27:08+09:00
+waight: 100500
 ---
 
 [低レイヤを知りたい人のためのCコンパイラ作成入門](https://www.sigbus.info/compilerbook)

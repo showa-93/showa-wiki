@@ -2,7 +2,7 @@
 title: 同期的なリモープロシージャパターン
 type: docs
 author: showa
-lastmod: 2023-10-09T15:13:24+09:00
+lastmod: 2023-10-09T15:19:03+09:00
 waight: 1
 ---
 
@@ -11,7 +11,8 @@ waight: 1
 
 ## REST
 
-[REST](https://docs.microsoft.com/ja-jp/azure/architecture/best-practices/api-design#introduction-to-rest)は、ビジネスオブジェクトやそのコレクションを表すリソースを、HTTPメソッドで操作するようにエンドポイントをもつAPI。APIは、インターフェース定義言語で定義しなければならない。
+[REST](https://docs.microsoft.com/ja-jp/azure/architecture/best-practices/api-design#introduction-to-rest)は、ビジネスオブジェクトやそのコレクションを表すリソースを、HTTPメソッドで操作するようにエンドポイントをもつAPI。APIは、インターフェース定義言語で定義しなければならない。  
+
 メリット
 
 - curlやPostmanで簡単にAPIを叩くことができる
@@ -20,26 +21,30 @@ waight: 1
 デメリット
 - リクエスト／レスポンススタイル以外の通信を利用できない
 - クライアントーサーバー間が直接通信しているので、可用性が下がる
-- クライアントがサービスインスタンスの位置を知っている必要がある（解決策⇛[サービスディスカバリ]）
+- クライアントがサービスインスタンスの位置を知っている必要がある
+  - （解決策⇛[サービスディスカバリ]）
 - １つのリクエストで複数のリソースをフェッチできない
 
 ## gRPC
 
 HTTP/2を利用してプロトコルバッファ形式のメッセージをやりとりするAPI。
+
 メリット
 
 - 操作に対して命名できるのでAPIの設計がしやすい
 - 大きなメッセージのやりとりでも効率的でコンパクトに通信できる
 - 双方向ストリーミングのため、RPI、メッセージの両方のスタイルで通信できる
 - 言語に依存しない
+
 デメリット
+
 - JavaScriptクライアントでは扱いづらい
 - 古いファイアウォールでは対応していない場合がある
 
 ## RPIのエラー処理
 
-同期的にサービスを呼び出す場合、以下について検討し、障害から守る必要がある。
-[fault-tolerance-in-a-high-volume-distributed-system - netflix](https://netflixtechblog.com/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)
+同期的にサービスを呼び出す場合、以下について検討し、障害から守る必要がある。  
+[fault-tolerance-in-a-high-volume-distributed-system - netflix](https://netflixtechblog.com/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)  
 
 - レスポンスを待つときはネットワークタイムアウトを指定する。リソースが必ず開放されるようにする。
 - クライアントから未応答のリクエストの許容上限を決めておく
@@ -50,4 +55,3 @@ HTTP/2を利用してプロトコルバッファ形式のメッセージをや�
 - クライアントにエラーを返す
 - デフォルト値やキャッシュした値を返却する
 - サービスそのものが障害で動作しない可能性もあるため、適切にサービスを
-など
