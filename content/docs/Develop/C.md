@@ -2,7 +2,7 @@
 title: C
 type: docs
 author: showa
-lastmod: 2023-10-08T16:03:59+09:00
+lastmod: 2023-10-08T16:41:41+09:00
 waight: 1
 ---
 
@@ -341,14 +341,14 @@ extern int Number;
 
 ### gdb
 
-[gcc+gdbによるプログラムのデバッグ https://rat.cis.k.hosei.ac.jp/article/devel/debugongccgdb1.html]
+[gcc+gdbによるプログラムのデバッグ](https://rat.cis.k.hosei.ac.jp/article/devel/debugongccgdb1.html)
 
 ## Tips
 
 ### ダブルポインタ
 
-- [ダブルポインタ **argv の使い方 http://www.nurs.or.jp/~sug/soft/tora/tora11.htm]
-- [ダブルポインタ(ポインタのポインタ)のメリットや使い道を紹介する https://www.toumasu-program.net/entry/2019/08/26/213512]
+- [ダブルポインタ **argv の使い方](http://www.nurs.or.jp/~sug/soft/tora/tora11.htm)
+- [ダブルポインタ(ポインタのポインタ)のメリットや使い道を紹介する](https://www.toumasu-program.net/entry/2019/08/26/213512)
 
 ### プログレスバー
 
@@ -356,7 +356,7 @@ extern int Number;
 キャリッジリターン（`\r`）を使用すると、行の先頭に移動する制御になる。
 コンソールの出力は上書きになるため、1行の範囲なら出力内容の更新が可能。
 
-- [コンソールによるプログレス表示 https://www.mm2d.net/main/prog/c/console-04.html]
+- [コンソールによるプログレス表示](https://www.mm2d.net/main/prog/c/console-04.html)
 
 ### static宣言について
 
