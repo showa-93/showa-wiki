@@ -76,6 +76,9 @@ languages:
 markup:
   highlight:
     style: github
+  goldmark:
+    renderer:
+      unsafe: true
 
 frontmatter:
   date:
