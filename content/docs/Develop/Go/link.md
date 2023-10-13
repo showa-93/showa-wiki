@@ -2,7 +2,7 @@
 title: Links
 type: docs
 weight: 100000
-lastmod: 2023-10-09T17:24:45+09:00
+lastmod: 2023-10-13T02:03:46+09:00
 ---
 
 ## spec
@@ -67,3 +67,7 @@ lastmod: 2023-10-09T17:24:45+09:00
 - [start fast: booting go programs quickly with `inittrace` and `nonblocking[T]`](https://eblog.fly.dev/startfast.html)
   - 起動時間の高速化をはかる記事
 - [Handling network bursts with channels in Golang :: Yoshiyuki Kurauchi — A telecom / networking / security enthusiast.](https://wmnsk.com/posts/20190618_throttling-bursts-in-go/)
+
+## tools
+
+- [Makefile覚書: Goアプリ開発に役立ちそうな基礎知識 | フューチャー技術ブログ](https://future-architect.github.io/articles/20231012a/)
