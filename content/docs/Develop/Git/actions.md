@@ -1,7 +1,7 @@
 ---
 title: GitHub Actions
 type: docs
-lastmod: 2023-10-08T14:56:50+09:00
+lastmod: 2023-11-19T17:17:34+09:00
 waight: 1
 ---
 
@@ -14,3 +14,4 @@ waight: 1
 ## Links
 
 - [GitHub Actions のワークフロー構文 - GitHub Docs](https://docs.github.com/ja/actions/using-workflows/workflow-syntax-for-github-actions)
+- [Github Actions Security Best Practices - Salesforce Engineering Blog](https://engineering.salesforce.com/github-actions-security-best-practices-b8f9df5c75f5/)

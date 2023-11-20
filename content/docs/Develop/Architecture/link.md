@@ -2,7 +2,7 @@
 title: Links
 type: docs
 weight: 100000
-lastmod: 2023-10-09T17:24:02+09:00
+lastmod: 2023-11-19T17:15:24+09:00
 ---
 
 ## ソフトウェアアーキテクチャ
@@ -21,3 +21,8 @@ lastmod: 2023-10-09T17:24:02+09:00
 ### DDD
 
 - [ドメイン駆動設計は何を解決する手法なのか - stmn tech blog](https://tech.stmn.co.jp/entry/2023/09/27/115301)
+
+### API設計
+
+- [How to (and how not to) design REST APIs · stickfigure/blog Wiki](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)
+-
