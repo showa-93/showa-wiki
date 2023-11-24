@@ -4,8 +4,16 @@
 {{ . }}
 {{ end }}
 
-{{ partial "top-blog-list.html" . }}
-<hr class="panel-line">
-{{ partial "top-docs-list.html" . }}
+<div class="px-3">
+    <h2 class="mt-3">GitHub</h2>
+    <a class="col-auto" href="https://github.com/showa-93/go-mask">
+      <img src="https://gh-card.dev/repos/showa-93/go-mask.svg">
+    </a>
+    <a class="col-auto" href="https://github.com/showa-93/showa-wiki">
+      <img src="https://gh-card.dev/repos/showa-93/showa-wiki.svg">
+    </a>
+    {{ partial "top-blog-list.html" . }}
+    {{ partial "top-docs-list.html" . }}
+</div>
 
 {{ end }}
