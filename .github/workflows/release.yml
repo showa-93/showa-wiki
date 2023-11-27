@@ -48,14 +48,19 @@ jobs:
           ./.github/scripts/create_contents.sh ec10db8e4fdd60148e6acd61641b9192 docs/Develop
           ./.github/scripts/create_contents.sh 1ff2c1488c358bb2b924720696116dc2 docs/Algorithm
           ./.github/scripts/create_contents.sh 43a7694f54a71d1a16356b58a63ea8db blog
+      - name: page diff count
+        id: diff
+        run: |
+          git add -N .
+          echo "diff=$(git diff --name-only | wc -l)" >> $GITHUB_OUTPUT
       - name: Commit and push
+        if: steps.diff.outputs.diff > 0
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add .
           git commit -m "Synchronized gists"
           git push
-        continue-on-error: true
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
