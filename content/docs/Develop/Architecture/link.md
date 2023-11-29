@@ -2,7 +2,7 @@
 title: Links
 type: docs
 weight: 100000
-lastmod: 2023-11-19T17:15:24+09:00
+lastmod: 2023-11-29T03:25:27+09:00
 ---
 
 ## ソフトウェアアーキテクチャ
@@ -12,6 +12,7 @@ lastmod: 2023-11-19T17:15:24+09:00
 - [Awesome Software Architecture](https://awesome-architecture.com/)
 - [O'Reilly Japan - ソフトウェアアーキテクチャの基礎](https://www.oreilly.co.jp/books/9784873119823/)
 - [O'Reilly Japan - ソフトウェアアーキテクチャ・ハードパーツ](https://www.oreilly.co.jp//books/9784814400065/)
+- [nealford.com • Architectural Katas](https://nealford.com/katas/)
 
 ### モジュラモノリス
 
@@ -25,4 +26,3 @@ lastmod: 2023-11-19T17:15:24+09:00
 ### API設計
 
 - [How to (and how not to) design REST APIs · stickfigure/blog Wiki](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)
--
