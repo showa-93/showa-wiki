@@ -1,6 +1,6 @@
 {{ $count := 0 }}
 
-{{ $pages := (where .Site.RegularPages "Section" "==" "docs") }}
+{{ $pages := (where .Site.AllPages "Section" "==" "docs") }}
 {{ $pages = sort $pages "Lastmod" "desc" }}
 
 <h2>Docs Update History</h2>
