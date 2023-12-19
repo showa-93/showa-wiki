@@ -8464,7 +8464,7 @@ div.drawio .input-group-sm > button,
     display: none !important; } }
 
 /*!
- * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2023 Fonticons, Inc.
  */
@@ -14668,7 +14668,7 @@ readers do not read off random characters that represent icons */
   border-width: 0; }
 
 /*!
- * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2023 Fonticons, Inc.
  */
@@ -14688,7 +14688,7 @@ readers do not read off random characters that represent icons */
   font-weight: 900; }
 
 /*!
- * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2023 Fonticons, Inc.
  */
@@ -14872,6 +14872,9 @@ readers do not read off random characters that represent icons */
 .fa-edge:before {
   content: "\f282"; }
 
+.fa-threads:before {
+  content: "\e618"; }
+
 .fa-napster:before {
   content: "\f3d2"; }
 
@@ -15039,6 +15042,9 @@ readers do not read off random characters that represent icons */
 
 .fa-scribd:before {
   content: "\f28a"; }
+
+.fa-debian:before {
+  content: "\e60b"; }
 
 .fa-openid:before {
   content: "\f19b"; }
@@ -15279,6 +15285,9 @@ readers do not read off random characters that represent icons */
 
 .fa-neos:before {
   content: "\f612"; }
+
+.fa-square-threads:before {
+  content: "\e619"; }
 
 .fa-hackerrank:before {
   content: "\f5f7"; }
@@ -15621,6 +15630,9 @@ readers do not read off random characters that represent icons */
 
 .fa-erlang:before {
   content: "\f39d"; }
+
+.fa-x-twitter:before {
+  content: "\e61b"; }
 
 .fa-cotton-bureau:before {
   content: "\f89e"; }
@@ -16117,6 +16129,9 @@ readers do not read off random characters that represent icons */
 .fa-quora:before {
   content: "\f2c4"; }
 
+.fa-square-x-twitter:before {
+  content: "\e61a"; }
+
 .fa-reacteurope:before {
   content: "\f75d"; }
 
@@ -16242,7 +16257,7 @@ readers do not read off random characters that represent icons */
     z-index: 1; }
 
 @media (min-width: 992px) {
-  .td-max-width-on-larger-screens, .td-card.card, .td-content .td-card.highlight, .td-card-group.card-group, .tab-content .tab-pane, .td-content .footnotes,
+  .td-max-width-on-larger-screens, .td-card.card, .td-content .td-card.highlight, .td-card-group.card-group, .td-content > .tab-content .tab-pane, .td-content .footnotes,
   .td-content > .alert,
   .td-content > .highlight,
   .td-content > .lead,
@@ -17656,6 +17671,7 @@ readers do not read off random characters that represent icons */
     color: #e7f0ff; }
 
 .td-blog .td-rss-button {
+  border-radius: 2rem;
   float: right;
   display: none; }
 
@@ -17677,7 +17693,8 @@ readers do not read off random characters that represent icons */
     text-align: right; }
   .td-content .highlight pre {
     margin: 0;
-    padding: 1rem; }
+    padding: 1rem;
+    border-radius: inherit; }
     .td-content .highlight pre button.td-click-to-copy {
       position: absolute;
       color: #ced4da;
@@ -18576,9 +18593,6 @@ div.drawioframe {
     left: 5%;
     z-index: 1010; }
 
-.tab-content .tab-pane pre {
-  margin: 0rem 0 0rem 0; }
-
 .tab-content .tab-pane {
   margin-top: 0rem;
   margin-bottom: 1.5rem;
@@ -18586,7 +18600,7 @@ div.drawioframe {
   border-right: 1px solid rgba(0, 0, 0, 0.125);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
   .tab-content .tab-pane .highlight {
-    margin: 0rem 0 0rem 0;
+    margin: 0;
     border: none;
     max-width: 100%; }
 
@@ -18596,6 +18610,11 @@ div.drawioframe {
   color: inherit;
   border-radius: 0;
   padding: 1.5rem; }
+  .tab-body > :last-child {
+    margin-bottom: 0; }
+  .tab-body > .highlight:only-child {
+    margin: -1.5rem;
+    max-width: calc(100% + 3rem); }
   .tab-body-primary {
     border-style: solid;
     border-color: #f08300; }
