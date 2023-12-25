@@ -7,5 +7,5 @@ Hugoのcontentsに作成したGistsをコピーしてGitHub Pagesにリリース
 # hugoのinstall
 CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
 # themeのアップデート
- git submodule update --remote
+git submodule update --remote
 ```
