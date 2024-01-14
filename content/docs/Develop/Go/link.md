@@ -2,7 +2,7 @@
 title: Links
 type: docs
 weight: 100000
-lastmod: 2023-10-13T02:03:46+09:00
+lastmod: 2024-01-13T19:57:54+09:00
 ---
 
 ## spec
@@ -67,6 +67,7 @@ lastmod: 2023-10-13T02:03:46+09:00
 - [start fast: booting go programs quickly with `inittrace` and `nonblocking[T]`](https://eblog.fly.dev/startfast.html)
   - 起動時間の高速化をはかる記事
 - [Handling network bursts with channels in Golang :: Yoshiyuki Kurauchi — A telecom / networking / security enthusiast.](https://wmnsk.com/posts/20190618_throttling-bursts-in-go/)
+- [Concurrent HTTP Requests in Golang: Best Practices and Techniques | by Rafet Topcu | Insider Engineering | Jan, 2024 | Medium](https://medium.com/insiderengineering/concurrent-http-requests-in-golang-best-practices-and-techniques-f667e5a19dea)
 
 ## tools
 

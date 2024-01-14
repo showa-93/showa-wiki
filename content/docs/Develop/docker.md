@@ -27,6 +27,7 @@ cgroupはプロセスに対して、CPU時間やメモリ使用量など、資�
 
 - [Dockerドキュメント](https://docs.docker.jp/index.html)
 - [Dockernetwork概論](https://qiita.com/TsutomuNakamura/items/ed046ee21caca4a2ffd9)
+- [実践 Docker - ソフトウェアエンジニアの「Docker よくわからない」を終わりにする本](https://zenn.dev/suzuki_hoge/books/2022-03-docker-practice-8ae36c33424b59)
 - [.envでDocker開発環境をカスタマイズ！](https://zenn.dev/forcia_tech/articles/20230613_hatano_dotenv)
 - [Linux環境でDockerコンテナ内にuserで入る](https://zenn.dev/temple_c_tech/articles/exec-container-by-user)
 - [docker build battle - Speaker Deck](https://speakerdeck.com/orisano/docker-build-battle?slide=82)

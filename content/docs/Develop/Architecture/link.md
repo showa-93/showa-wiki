@@ -2,7 +2,7 @@
 title: Links
 type: docs
 weight: 100000
-lastmod: 2023-11-29T03:25:27+09:00
+lastmod: 2024-01-13T20:15:46+09:00
 ---
 
 ## ソフトウェアアーキテクチャ
@@ -13,6 +13,9 @@ lastmod: 2023-11-29T03:25:27+09:00
 - [O'Reilly Japan - ソフトウェアアーキテクチャの基礎](https://www.oreilly.co.jp/books/9784873119823/)
 - [O'Reilly Japan - ソフトウェアアーキテクチャ・ハードパーツ](https://www.oreilly.co.jp//books/9784814400065/)
 - [nealford.com • Architectural Katas](https://nealford.com/katas/)
+- [asynkron/protoactor-go: Proto Actor - Ultra fast distributed actors for Go, C# and Java/Kotlin](https://github.com/asynkron/protoactor-go)
+  - Actorモデルのライブラリ
+- [システムの複雑さはどこから来るのか – Out of the tar pitを読む - Uzabase for Engineers](https://tech.uzabase.com/entry/2021/05/20/141950)
 
 ### モジュラモノリス
 
@@ -26,3 +29,9 @@ lastmod: 2023-11-29T03:25:27+09:00
 ### API設計
 
 - [How to (and how not to) design REST APIs · stickfigure/blog Wiki](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)
+- [API仕様ファースト開発：柴田 芳樹 (Yoshiki Shibata)：SSブログ](https://yshibata.blog.ss-blog.jp/2023-12-07)
+
+### テーブル設計
+
+- [実践Immutable Data Model - 紙箱](https://boxofpapers.hatenablog.com/entry/immutable_data_model)
+  - > Updateをなるべく発生させないためには、データを改変できない（つまりCreateしかできない）モデルの方が、長期的に安定した、安全なシステムが作れるはず、という考え方です。
