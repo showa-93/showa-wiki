@@ -2,7 +2,7 @@
 title: Links
 type: docs
 weight: 100000
-lastmod: 2024-01-13T19:57:54+09:00
+lastmod: 2024-02-03T23:10:44+09:00
 ---
 
 ## spec
@@ -47,6 +47,7 @@ lastmod: 2024-01-13T19:57:54+09:00
 - [Implementing Go stream API. What is Stream Processing | by Kevin Wan | Dev Genius](https://blog.devgenius.io/implementing-go-stream-api-a74a6156ac35)
 - [Behind the Scenes of Go Scheduler - DEV Community](https://dev.to/sourikghosh/behind-the-scenes-of-go-scheduler-1hdi?utm_source=dormosheio&utm_campaign=dormosheio)
 - [What is the zero value, and why is it useful? | Dave Cheney](https://dave.cheney.net/2013/01/19/what-is-the-zero-value-and-why-is-it-useful)
+- [A complete guide to working with Cookies in Go – Alex Edwards](https://www.alexedwards.net/blog/working-with-cookies-in-go)
 
 ## coding style
 
