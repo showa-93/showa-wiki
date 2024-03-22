@@ -2,7 +2,7 @@
 title: Links
 type: docs
 weight: 100000
-lastmod: 2024-01-13T20:15:46+09:00
+lastmod: 2024-03-21T23:17:23+09:00
 ---
 
 ## ソフトウェアアーキテクチャ
@@ -30,6 +30,7 @@ lastmod: 2024-01-13T20:15:46+09:00
 
 - [How to (and how not to) design REST APIs · stickfigure/blog Wiki](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)
 - [API仕様ファースト開発：柴田 芳樹 (Yoshiki Shibata)：SSブログ](https://yshibata.blog.ss-blog.jp/2023-12-07)
+- [API 設計ガイド  |  Cloud APIs  |  Google Cloud](https://cloud.google.com/apis/design?hl=ja)
 
 ### テーブル設計
 
